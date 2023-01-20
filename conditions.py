@@ -44,7 +44,6 @@ def characters_check():
 def weight_converter():
     input_weight = int(input("Weight: "))
     unit = input("(L)bs or (K)g: ").lower()
-    weight = 0
     if input_weight:
         if unit == "l":
             weight = input_weight * 0.45
