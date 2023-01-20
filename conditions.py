@@ -39,7 +39,6 @@ def characters_check():
 
 
 # Weight Converter
-#
 
 def weight_converter():
     input_weight = int(input("Weight: "))
