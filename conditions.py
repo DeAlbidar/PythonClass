@@ -26,3 +26,32 @@ def down_payments():
 # otherwise
 #   name looks good!
 
+def characters_check():
+    text_count = len(input("Enter Your Name: "))
+    max_characters = 50
+    min_characters = 3
+    if text_count < min_characters:
+        print("Name must be at least 3 characters")
+    elif text_count > max_characters:
+        print("Name can be a maximum of 50 characters")
+    else:
+        print("Name looks Good!")
+
+
+# Weight Converter
+#
+
+def weight_converter():
+    input_weight = int(input("Weight: "))
+    unit = input("(L)bs or (K)g: ").lower()
+    weight = 0
+    if input_weight:
+        if unit == "l":
+            weight = input_weight * 0.45
+            print(f"You are {weight} kilos")
+        elif unit == "k":
+            weight = input_weight / 0.45
+            print(f"You are {weight} pounds")
+        else:
+            print("I don't understand the command...")
+
