@@ -86,8 +86,8 @@ def draw_f():
 def draw_f_2():
     numbers = [5, 2, 5, 2, 2]
     print_x = "x"
-    for i in numbers:
-        print_x_2 = ""
-        for ii in range(i):
-            print_x_2 += print_x
-        print(print_x_2)
+    for x_counts in numbers:
+        output = ""
+        for count in range(x_counts):
+            output += print_x
+        print(output)
