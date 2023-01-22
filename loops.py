@@ -60,6 +60,34 @@ def car():
 
 
 # For Loops
-# 
+# Programme to calculate the total items in a shopping cart using for loop
+# Example: prices = [10, 20, 30]
+
+def cart():
+    prices = [10, 20, 30]
+    total = 0
+    for items in prices:
+        total += items
+    print(f"Total: {total}")
 
 
+# For loop
+# Programme that will draw 'F' shape using for loop
+#
+def draw_f():
+    numbers = [5, 2, 5, 2, 2]
+    for i in numbers:
+        print("*" * i)
+
+
+# For loop
+# Programme that will draw 'F' shape using for loop
+#
+def draw_f_2():
+    numbers = [5, 2, 5, 2, 2]
+    print_x = "x"
+    for i in numbers:
+        print_x_2 = ""
+        for ii in range(i):
+            print_x_2 += print_x
+        print(print_x_2)
