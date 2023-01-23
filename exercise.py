@@ -19,3 +19,21 @@ def num_str():
     for i in numbers:
         output += digits_mapping.get(i, "!") + " "
     print(output)
+
+
+# if __name__ == '__main__':
+#     s = input().strip()
+#     t = input().strip()
+#
+#     print(findTheDifference(s, t))
+def findTheDifference(s: str, t: str) -> str:
+    first = s
+    second = t
+    res = ''
+    for se in second:
+        res = se
+        if res not in first:
+            res = res
+    return res
+
+
